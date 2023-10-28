@@ -95,10 +95,17 @@ body {
     z-index: 1;
 }
 
+.hero-button-content {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 41px;
+}
+
 .hero-button {
     width: 207px;
     height: 51px;
     padding: 41px, 19px;
+    margin-right: 20px;
 }
 
 .hero-button-outline {
@@ -106,6 +113,7 @@ body {
     height: 51px;
     top: 0;
     left: 0;
+    background-color: transparent;
     border-radius: 2px;
     border: 1px solid;
     border-color: #ffffff;
